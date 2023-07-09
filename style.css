@@ -25,5 +25,47 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    align-items: center;
+    display: flex;
 
+}
+.banner-info{
+    /* display: flex; */
+}
+.primary{
+    color: red;
+}
+.primary-des{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    /* text-align: center; */
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+.bg-red{
+    background-color: red;
+}
+.service-container{
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'),
+    linear-gradient(rgb(57, 57, 61),rgb(69, 69, 73));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    padding: 50px;
+    background-color: white;
 }
