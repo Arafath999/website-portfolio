@@ -154,7 +154,11 @@
     width: 200px;
     height: 300px;
     border-radius: 6px;
-    box-shadow: 4px 8px 4px gray;
+    box-shadow: 4px 8px 4px black;
+    background-color: gray;
+    /* padding: 70px; */
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
 }
 .photo-set-card{
     width: 200px;
@@ -165,6 +169,13 @@
     gap: 5px;
     /* align-items: center; */
     justify-content: space-around;
+    background-color: rgb(126, 107, 109);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    box-shadow: rgb(82, 2, 19);
+    border-radius: 5px;
+
 
 
 }
