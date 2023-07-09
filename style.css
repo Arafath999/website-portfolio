@@ -97,4 +97,74 @@
 }
 .author-container{
     display: flex;
+    gap: 20px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    border-right: 4px solid red;
+    padding-right: 15px;
+}
+.bttn{
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: red;
+    
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    /* background-image: url('./asset/icons/'); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 6px;
+    margin-top: -30px;
+    gap: 10px;
+}
+.app-btn{
+    background-color: green;
+    /* border-radius: 5px; */
+    
+}
+.colors{
+    color: red;
+}
+.title{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+.title-des{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-around;
+    padding: 0px 280px 0px 280px;
+
+}
+.card{
+    width: 200px;
+    height: 300px;
+    border-radius: 6px;
+    box-shadow: 4px 8px 4px gray;
+}
+.photo-set-card{
+    width: 200px;
+    height: 150px; 
+}
+.cards{
+    display: flex;
+    gap: 5px;
+    /* align-items: center; */
+    justify-content: space-around;
+
+
 }
